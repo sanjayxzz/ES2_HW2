@@ -1,0 +1,67 @@
+//1//
+
+const isOdd= (num) => num % 2 !== 0;
+console.log(isOdd(5))
+console.log(isOdd(8))
+
+//2//
+
+const strLength = (str) => str.length
+console.log(strLength("hellosfsf"))
+
+//3//
+
+const capitalizeString = (str) => str.toUpperCase()
+console.log(capitalizeString("sanjay"))
+
+//4//
+
+const currentDate = () => {
+  const date = new Date()
+  const month = date.getMonth().toString()
+  const day = date.getDate()
+  const year = date.getFullYear()
+  return `${month}/${day}/${year}`
+}
+console.log(currentDate())
+
+  //5//
+
+  const currentTime = () => {
+    const date = new Date()
+    const hours = date.getHours().toString()
+    const minutes = date.getMinutes().toString()
+    const seconds = date.getSeconds().toString()
+    return`${hours}:${minutes}:${seconds}`
+  }
+    console.log(currentTime())
+
+//6//
+
+const fahrenheitToCelsius  = (fahrenheit) => (fahrenheit - 32) * 5 / 9;
+console.log(fahrenheitToCelsius (32));
+console.log(fahrenheitToCelsius (100));
+
+//7//
+
+const isEmptyString = (str) => str === ''
+
+
+  console.log(isEmptyString(""))
+console.log(isEmptyString("hello"))
+
+//8//
+
+const isRandomNumber = () => Math.floor(Math.random() * 30)
+console.log(isRandomNumber())
+
+//9// 
+
+const getSquareRoot = (num) => num **100
+console.log(getSquareRoot(5))
+
+
+//10//
+
+const getLowerCase = (str) => str.toLowerCase()
+console.log(getLowerCase("HELLO"))
